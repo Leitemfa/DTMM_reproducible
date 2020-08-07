@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 <!--HOW TO COMPLETE THIS FORM:-->
 
@@ -28,6 +28,8 @@ Note that current versions of RStudio for Mac (this will change with RStudio ver
 
 This form documents the artifacts associated with the article (i.e., the data and code supporting the computational findings) and describes how to reproduce the findings.
 
+We have published our R package for the method introduced in the paper at https://github.com/MaStatLab/DTMM. All source code and data for reproducing the numerical studies and the case studies can be found at https://github.com/MaStatLab/DTMM_reproducible.
+
 
 # Part 1: Data
 
@@ -43,9 +45,11 @@ If box above is checked and if no simulated/synthetic data files are provided by
 
 ## Abstract
 
-The case studies in this paper is implemented with the July 29, 2016 version of the fecal data from the American Gut Project. The American Gut Project collects fecal, oral, skin, and other body site samples from thousands of participants. Lifestyle and dietary data about each participant is also collected, making it possible to study the associations between the human microbiome and various factors. The data is freely available to public through the link ftp://ftp.microbio.me/AmericanGut. The original American Gut sequences and metadata are available at The European Bioinformatics Institute under the accession ERP012803. Cleaned data including the OTU table, the phylogenetic tree and the covariate information about the participants are available at the data portal ftp://ftp.microbio.me/AmericanGut. Licensing information of the data can be found at https://github.com/biocore/American-Gut/blob/master/LICENSE. 
+The case studies in this paper is implemented with the July 29, 2016 version of the fecal data from the American Gut Project. The American Gut Project collects fecal, oral, skin, and other body site samples from thousands of participants. Lifestyle and dietary data about each participant is also collected, making it possible to study the associations between the human microbiome and various factors. The original American Gut sequences and metadata are available at The European Bioinformatics Institute under the accession ERP012803 (https://www.ebi.ac.uk/ena/browser/view/PRJEB11419). Cleaned data including the OTU table, the phylogenetic tree and the covariate information about the participants are available at the data portal ftp://ftp.microbio.me (http://americangut.org/resources/). Licensing information of the data can be found at https://github.com/biocore/American-Gut/blob/master/LICENSE. 
 
 In the simulation studies, we reanalyze the dataset in *Dethlefsen, Les, and David A. Relman. "Incomplete recovery and individualized responses of the human distal gut microbiota to repeated antibiotic perturbation." Proceedings of the National Academy of Sciences 108.Supplement 1 (2011): 4554-4561.* The dataset is available at https://www.pnas.org/content/108/Supplement_1/4554.
+
+Original as well as the preprocessed datasets used in our analyses are avaiable at https://github.com/MaStatLab/DTMM_reproducible/tree/master/data. 
 <!--
 Provide a short (< 100 words), high-level description of the data
 -->
@@ -60,9 +64,9 @@ If the data are publicly available, see the *Publicly available data* section. O
 
 ### Publicly available data
 
-- [ ] Data are available online at:
+- [x] Data are available online at: https://github.com/MaStatLab/DTMM_reproducible/tree/master/data
 
-- [x] Data are available as part of the paper’s supplementary material.
+- [ ] Data are available as part of the paper’s supplementary material.
 
 - [ ] Data are publicly available by request, following the process described here:
 
@@ -93,7 +97,7 @@ Check all that apply
 
 ## Abstract
 
-The code includes all functions to generate the simulated datasets in Section 3 as well as all functions to perform the analyses in Section 3 and Section 4. Specifically, the folder "numerical_examples" contains all functions to reproduce the numerical studies in Section 3. The folder "case_studies" contains all functions to reproduce the case studies in Section 4.
+All functions to generate the simulated datasets in Section 3 as well as all functions to perform the analyses in Section 3 and Section 4 can be found at https://github.com/MaStatLab/DTMM_reproducible. Specifically, the folder "numerical_examples" contains all functions to reproduce the numerical studies in Section 3. The folder "case_studies" contains all functions to reproduce the case studies in Section 4.
 <!--
 Provide a short (< 100 words), high-level description of the code. If necessary, more details can be provided in files that accompany the code.
 -->

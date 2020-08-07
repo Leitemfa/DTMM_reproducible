@@ -389,6 +389,7 @@ Note that current versions of RStudio for Mac (this will change with RStudio ver
 <div id="author-contributions-checklist-form" class="section level1">
 <h1>Author Contributions Checklist Form</h1>
 <p>This form documents the artifacts associated with the article (i.e., the data and code supporting the computational findings) and describes how to reproduce the findings.</p>
+<p>We have published our R package for the method introduced in the paper at <a href="https://github.com/MaStatLab/DTMM" class="uri">https://github.com/MaStatLab/DTMM</a>. All source code and data for reproducing the numerical studies and the case studies can be found at <a href="https://github.com/MaStatLab/DTMM_reproducible" class="uri">https://github.com/MaStatLab/DTMM_reproducible</a>.</p>
 </div>
 <div id="part-1-data" class="section level1">
 <h1>Part 1: Data</h1>
@@ -404,8 +405,9 @@ If box above is checked and if no simulated/synthetic data files are provided by
 <!-- If data are simulated using random number generation, please be sure to set the random number seed in the code you provide -->
 <div id="abstract" class="section level2">
 <h2>Abstract</h2>
-<p>The case studies in this paper is implemented with the July 29, 2016 version of the fecal data from the American Gut Project. The American Gut Project collects fecal, oral, skin, and other body site samples from thousands of participants. Lifestyle and dietary data about each participant is also collected, making it possible to study the associations between the human microbiome and various factors. The data is freely available to public through the link <a href="ftp://ftp.microbio.me/AmericanGut" class="uri">ftp://ftp.microbio.me/AmericanGut</a>. The original American Gut sequences and metadata are available at The European Bioinformatics Institute under the accession ERP012803. Cleaned data including the OTU table, the phylogenetic tree and the covariate information about the participants are available at the data portal <a href="ftp://ftp.microbio.me/AmericanGut" class="uri">ftp://ftp.microbio.me/AmericanGut</a>. Licensing information of the data can be found at <a href="https://github.com/biocore/American-Gut/blob/master/LICENSE" class="uri">https://github.com/biocore/American-Gut/blob/master/LICENSE</a>.</p>
-<p>In the simulation studies, we reanalyze the dataset in <em>Dethlefsen, Les, and David A. Relman. “Incomplete recovery and individualized responses of the human distal gut microbiota to repeated antibiotic perturbation.” Proceedings of the National Academy of Sciences 108.Supplement 1 (2011): 4554-4561.</em> The dataset is available at <a href="https://www.pnas.org/content/108/Supplement_1/4554" class="uri">https://www.pnas.org/content/108/Supplement_1/4554</a>. <!--
+<p>The case studies in this paper is implemented with the July 29, 2016 version of the fecal data from the American Gut Project. The American Gut Project collects fecal, oral, skin, and other body site samples from thousands of participants. Lifestyle and dietary data about each participant is also collected, making it possible to study the associations between the human microbiome and various factors. The original American Gut sequences and metadata are available at The European Bioinformatics Institute under the accession ERP012803 (<a href="https://www.ebi.ac.uk/ena/browser/view/PRJEB11419" class="uri">https://www.ebi.ac.uk/ena/browser/view/PRJEB11419</a>). Cleaned data including the OTU table, the phylogenetic tree and the covariate information about the participants are available at the data portal <a href="ftp://ftp.microbio.me" class="uri">ftp://ftp.microbio.me</a> (<a href="http://americangut.org/resources/" class="uri">http://americangut.org/resources/</a>). Licensing information of the data can be found at <a href="https://github.com/biocore/American-Gut/blob/master/LICENSE" class="uri">https://github.com/biocore/American-Gut/blob/master/LICENSE</a>.</p>
+<p>In the simulation studies, we reanalyze the dataset in <em>Dethlefsen, Les, and David A. Relman. “Incomplete recovery and individualized responses of the human distal gut microbiota to repeated antibiotic perturbation.” Proceedings of the National Academy of Sciences 108.Supplement 1 (2011): 4554-4561.</em> The dataset is available at <a href="https://www.pnas.org/content/108/Supplement_1/4554" class="uri">https://www.pnas.org/content/108/Supplement_1/4554</a>.</p>
+<p>Original as well as the preprocessed datasets used in our analyses are avaiable at <a href="https://github.com/MaStatLab/DTMM_reproducible/tree/master/data" class="uri">https://github.com/MaStatLab/DTMM_reproducible/tree/master/data</a>. <!--
 Provide a short (< 100 words), high-level description of the data
 --></p>
 </div>
@@ -419,8 +421,8 @@ Provide a short (< 100 words), high-level description of the data
 <div id="publicly-available-data" class="section level3">
 <h3>Publicly available data</h3>
 <ul>
-<li><p>[ ] Data are available online at:</p></li>
-<li><p>[x] Data are available as part of the paper’s supplementary material.</p></li>
+<li><p>[x] Data are available online at: <a href="https://github.com/MaStatLab/DTMM_reproducible/tree/master/data" class="uri">https://github.com/MaStatLab/DTMM_reproducible/tree/master/data</a></p></li>
+<li><p>[ ] Data are available as part of the paper’s supplementary material.</p></li>
 <li><p>[ ] Data are publicly available by request, following the process described here:</p></li>
 <li><p>[ ] Data are or will be made available through some other mechanism, described here:</p></li>
 </ul>
@@ -454,7 +456,7 @@ Check all that apply
 <h1>Part 2: Code</h1>
 <div id="abstract-1" class="section level2">
 <h2>Abstract</h2>
-<p>The code includes all functions to generate the simulated datasets in Section 3 as well as all functions to perform the analyses in Section 3 and Section 4. Specifically, the folder “numerical_examples” contains all functions to reproduce the numerical studies in Section 3. The folder “case_studies” contains all functions to reproduce the case studies in Section 4. <!--
+<p>All functions to generate the simulated datasets in Section 3 as well as all functions to perform the analyses in Section 3 and Section 4 can be found at <a href="https://github.com/MaStatLab/DTMM_reproducible" class="uri">https://github.com/MaStatLab/DTMM_reproducible</a>. Specifically, the folder “numerical_examples” contains all functions to reproduce the numerical studies in Section 3. The folder “case_studies” contains all functions to reproduce the case studies in Section 4. <!--
 Provide a short (< 100 words), high-level description of the code. If necessary, more details can be provided in files that accompany the code.
 --></p>
 </div>
@@ -509,6 +511,11 @@ Check all that apply
 <li>cluster (suggested version 2.1.0)</li>
 <li>kernlab (suggested version 0.9-29)</li>
 <li>vegan (suggested version 2.5-6)</li>
+</ul>
+<p>Additional R packages to preprocess the datasets:</p>
+<ul>
+<li>dplyr (suggested version 1.0.1)</li>
+<li>data.table (suggested version 1.13.0)</li>
 </ul>
 <p>Additional R packages to reproduce the figures:</p>
 <ul>
