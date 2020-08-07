@@ -203,6 +203,8 @@ Check all that apply
 
 ### Instructions
 
+To reproduce our analyses, the home directory should be set to https://github.com/MaStatLab/DTMM_reproducible.
+
 #### 1. Simulation studies
 
 The simulation studies in Section 3.1 can be reproduced with files in the folder "numerical_examples/simulations". Functions to generate the simulated datasets are provided in the folder "dgp". Each run of the file in the folder generate a dataset for a single round of the simulation study. For example, the folder "results" contains the simulation results under scenario 2 with 90 samples. The functions in folder "analyses" read the simulation results and produce the numebers to generate the tables and figures in Section 3.1. Here we only include results for a specific simulation scenario in the folder "results" for illustration. Results for all other scenarios can be reproduced and saved in the same manner.
