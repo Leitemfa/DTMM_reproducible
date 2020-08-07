@@ -143,6 +143,11 @@ R packages to run the numerical and case study analyses:
 * kernlab (suggested version 0.9-29)
 * vegan (suggested version 2.5-6)
 
+Additional R packages to preprocess the datasets:
+
+* dplyr (suggested version 1.0.1)
+* data.table (suggested version 1.13.0)
+
 Additional R packages to reproduce the figures:
 
 * ggplot2 (suggested version 3.3.2)
