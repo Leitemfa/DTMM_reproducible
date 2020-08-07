@@ -1,0 +1,1 @@
+This folder contains all code and functions to reproduce the simulation studies in Section 3.1.
