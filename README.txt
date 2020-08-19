@@ -1,4 +1,4 @@
-This folder contains all information needed to reproduce the numerical and case study analyses in Mao and Ma (2020) (https://arxiv.org/abs/2008.00400). Please refer to "acc_form.pdf" for the details and instructions to reproduce the analyses.
+This folder contains all information needed to reproduce the numerical and case study analyses in Mao and Ma (2020) (https://arxiv.org/abs/2008.00400). 
 
 The folder "data" contains all the real datasets used in the paper.
 
