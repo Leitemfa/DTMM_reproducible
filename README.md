@@ -1,3 +1,5 @@
+This forked folder is my attempt to reproduce the code developed by Mao and Ma (2020)
+
 This folder contains all information needed to reproduce the numerical and case study analyses in Mao and Ma (2020) (https://arxiv.org/abs/2008.00400). 
 
 The folder "data" contains all the real datasets used in the paper.
